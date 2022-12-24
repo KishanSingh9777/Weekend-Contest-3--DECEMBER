@@ -1,0 +1,96 @@
+.navbar{
+    position: fixed !important;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+#btn{
+    width: 7em;
+    background-color:darkgrey;
+    border: none;
+    border-radius: 5px;
+}
+.d-flex{
+    padding-right: 50px;
+    position: relative;
+    gap: 30px;
+}
+.d-flex #btn a{
+    text-decoration: none;
+    color: black;
+
+}
+.flex-box{
+    position: relative;
+    top: 130px;
+}
+.card{
+    position: relative;
+    top: 30px;
+}
+.btn-time{
+    width: 21rem;
+    display: flex;
+    position: relative;
+}
+.btn-container{
+    width: 8rem;
+    display: flex;
+    border: 1px solid;
+} 
+#btn{
+    border-radius: 0px;
+    height: 35px;
+    background-color: rgb(255, 255, 243);
+    color: black;
+
+}
+.time{
+    position: relative;
+    display: flex;
+    top: 5px;
+    left: 9rem;
+}
+.main-footer-section{
+    background-color: rgb(24, 23, 23);
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    border-radius: 5px;
+    top: 20rem;
+}
+.fotter-sec{
+    display: flex;
+    justify-content: space-between;
+    height: 55vh;
+    width: 50vw;
+    position: relative;
+    top: 15vh;
+    left: 23%;
+}
+.inforrmation{
+    position: relative;
+    height: 55vh;
+    width: 20vw;
+    position: relative;
+    left: 20%;
+}
+.icon-img{
+    width: 120px;
+    height: 100px;
+}
+.info{
+    position: relative;
+    top: 20px;
+    color: white;
+}
+@media (min-width: 1099px) and (max-width: 1200px){
+    .time{
+        left: 6rem; 
+    } 
+}
+@media (min-width: 900px) and (max-width: 1098){
+    .time{
+        left: 4rem; 
+    } 
+}
