@@ -29,9 +29,14 @@
     top: 30px;
 }
 .btn-time{
-    width: 21rem;
     display: flex;
+    justify-content: space-between;
+}
+.line{
+    border-left: .5px solid black;
+    height: 25px;
     position: relative;
+    top: 5.5px;
 }
 .btn-container{
     width: 8rem;
@@ -44,12 +49,6 @@
     background-color: rgb(255, 255, 243);
     color: black;
 
-}
-.time{
-    position: relative;
-    display: flex;
-    top: 5px;
-    left: 9rem;
 }
 .main-footer-section{
     background-color: rgb(24, 23, 23);
@@ -84,7 +83,7 @@
     top: 20px;
     color: white;
 }
-@media (min-width: 1099px) and (max-width: 1200px){
+/* @media (min-width: 1099px) and (max-width: 1200px){
     .time{
         left: 6rem; 
     } 
@@ -93,4 +92,4 @@
     .time{
         left: 4rem; 
     } 
-}
+} */
